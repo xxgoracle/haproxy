@@ -1196,8 +1196,6 @@ int cfg_parse_global(const char *file, int linenum, char **args, int kwm)
 			goto out;
 		if (kwm == KWM_NO)
 			global.tune.options &= ~GTUNE_STRICT_LIMITS;
-		else
-			global.tune.options |= GTUNE_STRICT_LIMITS;
 	}
 	else {
 		struct cfg_kw_list *kwl;

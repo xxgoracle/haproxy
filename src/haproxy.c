@@ -1705,6 +1705,7 @@ static void init(int argc, char **argv)
 #if defined(SO_REUSEPORT)
 	global.tune.options |= GTUNE_USE_REUSEPORT;
 #endif
+	global.tune.options |= GTUNE_STRICT_LIMITS;
 
 	pid = getpid();
 	progname = *argv;
@@ -3062,8 +3063,7 @@ int main(int argc, char **argv)
 				if (setrlimit(RLIMIT_NOFILE, &limit) != -1)
 					getrlimit(RLIMIT_NOFILE, &limit);
 
-				ha_warning("[%s.main()] Cannot raise FD limit to %d, limit is %d. "
-				           "This will fail in >= v2.3\n",
+				ha_warning("[%s.main()] Cannot raise FD limit to %d, limit is %d.\n",
 					   argv[0], global.rlimit_nofile, (int)limit.rlim_cur);
 				global.rlimit_nofile = limit.rlim_cur;
 			}
@@ -3082,8 +3082,7 @@ int main(int argc, char **argv)
 					exit(1);
 			}
 			else
-				ha_warning("[%s.main()] Cannot fix MEM limit to %d megs."
-					   "This will fail in >= v2.3\n",
+				ha_warning("[%s.main()] Cannot fix MEM limit to %d megs.\n",
 					   argv[0], global.rlimit_memmax);
 		}
 #else
@@ -3095,8 +3094,7 @@ int main(int argc, char **argv)
 					exit(1);
 			}
 			else
-				ha_warning("[%s.main()] Cannot fix MEM limit to %d megs.",
-					   "This will fail in >= v2.3\n",
+				ha_warning("[%s.main()] Cannot fix MEM limit to %d megs.\n",
 					   argv[0], global.rlimit_memmax);
 		}
 #endif
@@ -3282,8 +3280,7 @@ int main(int argc, char **argv)
 		}
 		else
 			ha_alert("[%s.main()] FD limit (%d) too low for maxconn=%d/maxsock=%d. "
-				 "Please raise 'ulimit-n' to %d or more to avoid any trouble."
-				 "This will fail in >= v2.3\n",
+				 "Please raise 'ulimit-n' to %d or more to avoid any trouble.\n",
 			         argv[0], (int)limit.rlim_cur, global.maxconn, global.maxsock,
 				 global.maxsock);
 	}
@@ -3565,7 +3562,7 @@ int main(int argc, char **argv)
 			}
 			else
 				ha_warning("[%s.main()] Failed to set the raise the maximum "
-					   "file size. This will fail in >= v2.3\n", argv[0]);
+					   "file size.\n", argv[0]);
 		}
 #endif
 
@@ -3579,7 +3576,7 @@ int main(int argc, char **argv)
 			}
 			else
 				ha_warning("[%s.main()] Failed to set the raise the core "
-					   "dump size. This will fail in >= v2.3\n", argv[0]);
+					   "dump size.\n", argv[0]);
 		}
 #endif
 
