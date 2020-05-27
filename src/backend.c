@@ -22,7 +22,7 @@
 #include <haproxy/base.h>
 #include <common/buffer.h>
 #include <common/debug.h>
-#include <common/hash.h>
+#include <haproxy/hash.h>
 #include <common/htx.h>
 #include <common/ticks.h>
 #include <common/time.h>
