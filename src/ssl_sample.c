@@ -20,8 +20,8 @@
 #include <string.h>
 #include <unistd.h>
 
+#include <haproxy/base.h>
 #include <common/buffer.h>
-#include <common/initcall.h>
 #include <common/openssl-compat.h>
 #include <common/standard.h>
 

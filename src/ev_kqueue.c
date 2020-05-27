@@ -17,12 +17,10 @@
 #include <sys/event.h>
 #include <sys/time.h>
 
-#include <common/compat.h>
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/hathreads.h>
 #include <common/ticks.h>
 #include <common/time.h>
-#include <common/tools.h>
 
 #include <types/global.h>
 

@@ -10,7 +10,7 @@
  *
  */
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/memory.h>
 #include <common/mini-clist.h>
 #include <common/standard.h>
