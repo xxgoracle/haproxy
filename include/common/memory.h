@@ -29,7 +29,7 @@
 #include <unistd.h>
 
 #include <haproxy/base.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <common/hathreads.h>
 
 /* On architectures supporting threads and double-word CAS, we can implement

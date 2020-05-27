@@ -30,7 +30,7 @@
 #include <haproxy/openssl-compat.h>
 #endif
 
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist-t.h>
 #include <common/hathreads.h>
 
 #include <types/obj_type.h>

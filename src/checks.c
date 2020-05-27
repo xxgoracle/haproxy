@@ -33,7 +33,7 @@
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
 #include <common/chunk.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <common/standard.h>
 #include <common/time.h>
 #include <common/hathreads.h>

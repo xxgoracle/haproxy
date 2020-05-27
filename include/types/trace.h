@@ -25,7 +25,7 @@
 #include <haproxy/base.h>
 #include <common/buffer.h>
 #include <import/ist.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist-t.h>
 #include <types/sink.h>
 
 /* the macros below define an optional type for each of the 4 args passed to

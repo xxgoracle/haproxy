@@ -28,7 +28,7 @@
 #include <arpa/inet.h>
 
 #include <haproxy/base.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist-t.h>
 #include <common/regex.h>
 #include <import/eb32tree.h>
 

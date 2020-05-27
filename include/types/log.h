@@ -27,7 +27,7 @@
 #include <netinet/in.h>
 #include <haproxy/base.h>
 #include <common/hathreads.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist-t.h>
 #include <types/ring.h>
 
 #define NB_LOG_FACILITIES       24

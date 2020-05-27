@@ -19,7 +19,7 @@
 
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <haproxy/version.h>
 
 #include <types/cli.h>
