@@ -27,7 +27,7 @@
 
 #include <haproxy/base.h>
 #include <common/buf.h>
-#include <common/ist.h>
+#include <import/ist.h>
 #include <common/memory.h>
 
 

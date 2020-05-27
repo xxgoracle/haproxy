@@ -26,7 +26,7 @@
 #include <sys/socket.h>
 
 #include <haproxy/base.h>
-#include <common/ist.h>
+#include <import/ist.h>
 
 #include <types/listener.h>
 #include <types/obj_type.h>
