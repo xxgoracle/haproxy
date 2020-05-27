@@ -12,7 +12,6 @@
 
 #include <haproxy/base.h>
 #include <common/buffer.h>
-#include <common/debug.h>
 #include <common/http.h>
 #include <common/memory.h>
 
