@@ -1,8 +1,8 @@
 /*
- * include/common/tools.h
+ * include/haproxy/tools.h
  * Trivial macros needed everywhere.
  *
- * Copyright (C) 2000-2011 Willy Tarreau - w@1wt.eu
+ * Copyright (C) 2000-2020 Willy Tarreau - w@1wt.eu
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef _COMMON_TOOLS_H
-#define _COMMON_TOOLS_H
+#ifndef _HAPROXY_TOOLS_H
+#define _HAPROXY_TOOLS_H
 
 #include <sys/param.h>
 
@@ -42,7 +42,7 @@
 /* return the largest possible integer of type <ret>, with all bits set */
 #define MAX_RANGE(ret) (~(typeof(ret))0)
 
-#endif /* _COMMON_TOOLS_H */
+#endif /* _HAPROXY_TOOLS_H */
 
 /*
  * Local variables:
