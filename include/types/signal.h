@@ -16,7 +16,7 @@
 
 
 #include <signal.h>
-#include <common/config.h>
+#include <haproxy/types.h>
 #include <common/mini-clist.h>
 #include <common/standard.h>
 

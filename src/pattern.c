@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <errno.h>
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/net_helper.h>
 #include <common/standard.h>
 

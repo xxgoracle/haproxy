@@ -22,7 +22,7 @@
 #ifndef _TYPES_TEMPLATE_H
 #define _TYPES_TEMPLATE_H
 
-#include <common/config.h>
+#include <haproxy/types.h>
 
 #endif /* _TYPES_TEMPLATE_H */
 

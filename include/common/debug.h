@@ -22,7 +22,7 @@
 #ifndef _COMMON_DEBUG_H
 #define _COMMON_DEBUG_H
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/memory.h>
 
 #ifdef DEBUG_FULL

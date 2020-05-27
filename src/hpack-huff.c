@@ -29,7 +29,7 @@
 #include <inttypes.h>
 #include <string.h>
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/hpack-huff.h>
 
 struct huff {

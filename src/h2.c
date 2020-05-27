@@ -26,7 +26,7 @@
  */
 
 #include <inttypes.h>
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/h2.h>
 #include <common/http-hdr.h>
 #include <common/ist.h>

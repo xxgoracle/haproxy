@@ -21,7 +21,7 @@
 #ifndef _TYPES_FILTERS_H
 #define _TYPES_FILTERS_H
 
-#include <common/config.h>
+#include <haproxy/types.h>
 #include <common/mini-clist.h>
 
 struct http_msg;
