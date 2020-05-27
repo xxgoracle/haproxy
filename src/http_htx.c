@@ -17,7 +17,6 @@
 #include <haproxy/base.h>
 #include <types/global.h>
 
-#include <common/debug.h>
 #include <common/cfgparse.h>
 #include <common/h1.h>
 #include <common/http.h>

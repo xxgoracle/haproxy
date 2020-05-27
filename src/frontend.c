@@ -24,7 +24,6 @@
 
 #include <haproxy/base.h>
 #include <common/chunk.h>
-#include <common/debug.h>
 #include <common/standard.h>
 #include <common/time.h>
 
