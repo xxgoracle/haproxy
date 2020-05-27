@@ -20,9 +20,9 @@
 #include <string.h>
 #include <unistd.h>
 
+#include <haproxy/base.h>
 #include <common/cfgparse.h>
 #include <common/errors.h>
-#include <common/initcall.h>
 
 #include <proto/log.h>
 #include <proto/mworker.h>

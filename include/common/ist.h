@@ -36,7 +36,7 @@
 #include <stdlib.h>
 #endif
 
-#include <common/config.h>
+#include <haproxy/base.h>
 
 /* ASCII to lower case conversion table */
 #define _IST_LC ((const unsigned char[256]){            \

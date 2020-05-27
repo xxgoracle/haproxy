@@ -28,7 +28,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/mini-clist.h>
 
 #include <types/channel.h>

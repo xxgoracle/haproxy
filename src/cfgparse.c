@@ -33,9 +33,9 @@
 #include <fcntl.h>
 #include <unistd.h>
 
+#include <haproxy/base.h>
 #include <common/cfgparse.h>
 #include <common/chunk.h>
-#include <common/config.h>
 #include <common/errors.h>
 #include <common/memory.h>
 #include <common/standard.h>

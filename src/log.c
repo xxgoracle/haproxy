@@ -24,9 +24,7 @@
 #include <sys/time.h>
 #include <sys/uio.h>
 
-#include <common/config.h>
-#include <common/compat.h>
-#include <common/initcall.h>
+#include <haproxy/base.h>
 #include <common/standard.h>
 #include <common/time.h>
 #include <common/version.h>

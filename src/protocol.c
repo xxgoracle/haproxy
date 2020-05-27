@@ -13,7 +13,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/errors.h>
 #include <common/mini-clist.h>
 #include <common/standard.h>

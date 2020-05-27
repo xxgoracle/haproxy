@@ -22,7 +22,7 @@
 #ifndef _PROTO_HTTP_RULES_H
 #define _PROTO_HTTP_RULES_H
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/mini-clist.h>
 #include <types/action.h>
 #include <types/proxy.h>
