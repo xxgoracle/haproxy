@@ -22,8 +22,6 @@
 #ifndef _COMMON_CONFIG_H
 #define _COMMON_CONFIG_H
 
-#include <common/compiler.h>
-#include <common/compat.h>
-#include <common/defaults.h>
+#include <haproxy/base.h>
 
 #endif /* _COMMON_CONFIG_H */

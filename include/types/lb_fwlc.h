@@ -22,7 +22,7 @@
 #ifndef _TYPES_LB_FWLC_H
 #define _TYPES_LB_FWLC_H
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <import/ebtree.h>
 
 struct lb_fwlc {

@@ -20,8 +20,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#include <common/compat.h>
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/net_helper.h>
 #include <common/time.h>
 #include <common/standard.h>

@@ -22,7 +22,7 @@
 #ifndef _PROTO_PIPE_H
 #define _PROTO_PIPE_H
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <types/pipe.h>
 
 extern int pipes_used;	/* # of pipes in use (2 fds each) */

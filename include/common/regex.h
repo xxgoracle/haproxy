@@ -25,7 +25,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <common/config.h>
+#include <haproxy/base.h>
 #include <common/hathreads.h>
 
 #ifdef USE_PCRE
