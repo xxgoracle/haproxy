@@ -12,7 +12,6 @@
 
 #include <haproxy/base.h>
 #include <common/buffer.h>
-#include <common/debug.h>
 #include <common/cfgparse.h>
 #include <haproxy/errors.h>
 #include <common/htx.h>

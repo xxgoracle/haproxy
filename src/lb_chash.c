@@ -17,7 +17,6 @@
  */
 
 #include <haproxy/base.h>
-#include <common/debug.h>
 #include <common/standard.h>
 #include <import/eb32tree.h>
 

@@ -12,7 +12,6 @@
 
 #include <haproxy/base.h>
 #include <haproxy/base64.h>
-#include <common/debug.h>
 #include <common/htx.h>
 #include <common/net_helper.h>
 #include <common/uri_auth.h>

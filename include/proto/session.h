@@ -24,7 +24,6 @@
 
 #include <haproxy/base.h>
 #include <common/buffer.h>
-#include <common/debug.h>
 #include <common/memory.h>
 
 #include <types/global.h>
