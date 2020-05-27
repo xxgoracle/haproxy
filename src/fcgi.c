@@ -27,6 +27,7 @@
 #include <common/fcgi.h>
 #include <haproxy/buf.h>
 
+
 /* Encodes header of a FCGI record into the chunk <out>. It returns non-zero on
  * success and 0 on failure (buffer full). <out> is a chunk, so the wrapping is
  * not handled by this function. It is the caller responsibility to ensure
