@@ -32,10 +32,10 @@
 
 #include <inttypes.h>
 
-#include <common/compiler.h>
-#include <common/compat.h>
-#include <common/defaults.h>
-#include <common/initcall.h>
-#include <common/tools.h>
+#include <haproxy/compiler.h>
+#include <haproxy/compat.h>
+#include <haproxy/defaults.h>
+#include <haproxy/initcall.h>
+#include <haproxy/tools.h>
 
 #endif
