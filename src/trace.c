@@ -20,7 +20,7 @@
 
 #include <haproxy/base.h>
 #include <common/buffer.h>
-#include <common/ist.h>
+#include <import/ist.h>
 #include <common/mini-clist.h>
 #include <proto/cli.h>
 #include <proto/log.h>
