@@ -26,7 +26,7 @@
 
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
-#include <common/debug.h>
+#include <haproxy/debug.h>
 #include <common/http.h>
 #include <common/htx.h>
 #include <common/memory.h>
