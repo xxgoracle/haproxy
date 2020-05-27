@@ -28,7 +28,7 @@
 #include <haproxy/types.h>
 #include <common/mini-clist.h>
 #include <common/hathreads.h>
-#include <common/openssl-compat.h>
+#include <haproxy/openssl-compat.h>
 
 #include <import/eb32tree.h>
 
