@@ -26,7 +26,7 @@
 #include <sys/socket.h>
 
 #include <haproxy/base.h>
-#include <common/mini-clist.h>
+#include <haproxy/list-t.h>
 #include <import/eb32tree.h>
 
 /* some pointer types referenced below */

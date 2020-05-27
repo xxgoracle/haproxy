@@ -23,7 +23,7 @@
 #define _TYPES_PATTERN_H
 
 #include <haproxy/base.h>
-#include <common/mini-clist.h>
+#include <haproxy/list-t.h>
 #include <common/regex.h>
 
 #include <types/sample.h>

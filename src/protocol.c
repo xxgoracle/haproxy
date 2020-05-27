@@ -15,7 +15,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/errors.h>
-#include <common/mini-clist.h>
+#include <haproxy/list.h>
 #include <common/standard.h>
 
 #include <proto/protocol.h>
