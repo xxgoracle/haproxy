@@ -26,7 +26,7 @@
 #include <arpa/inet.h>
 
 #include <haproxy/types.h>
-#include <common/mini-clist.h>
+#include <haproxy/base.h>
 #include <common/hathreads.h>
 #include <haproxy/openssl-compat.h>
 

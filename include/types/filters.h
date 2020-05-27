@@ -22,7 +22,7 @@
 #define _TYPES_FILTERS_H
 
 #include <haproxy/types.h>
-#include <common/mini-clist.h>
+#include <haproxy/list-t.h>
 
 struct http_msg;
 struct proxy;

@@ -29,7 +29,7 @@
 #include <arpa/inet.h>
 
 #include <haproxy/types.h>
-#include <common/mini-clist.h>
+#include <haproxy/list-t.h>
 
 #include <types/obj_type.h>
 #include <types/proxy.h>

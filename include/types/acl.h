@@ -23,7 +23,7 @@
 #define _TYPES_ACL_H
 
 #include <haproxy/types.h>
-#include <common/mini-clist.h>
+#include <haproxy/list-t.h>
 
 #include <types/arg.h>
 #include <types/auth.h>
