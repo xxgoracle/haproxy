@@ -11,7 +11,7 @@
  */
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <common/standard.h>
 #include <common/ticks.h>
 #include <common/time.h>

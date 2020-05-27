@@ -12,7 +12,7 @@
 
 #include <haproxy/base.h>
 #include <common/memory.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <common/standard.h>
 
 #include <proto/action.h>

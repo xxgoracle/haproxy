@@ -14,7 +14,7 @@
 #include <stdlib.h>
 
 #include <haproxy/base.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <proto/applet.h>
 #include <proto/channel.h>
 #include <proto/stream.h>

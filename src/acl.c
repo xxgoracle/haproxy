@@ -15,7 +15,7 @@
 #include <string.h>
 
 #include <haproxy/base.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <common/standard.h>
 #include <common/uri_auth.h>
 

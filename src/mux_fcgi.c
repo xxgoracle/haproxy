@@ -16,7 +16,7 @@
 #include <common/h1.h>
 #include <common/htx.h>
 #include <import/ist.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <common/net_helper.h>
 
 #include <types/proxy.h>

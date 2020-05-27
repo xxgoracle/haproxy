@@ -14,7 +14,7 @@
 #include <common/buffer.h>
 #include <common/cfgparse.h>
 #include <common/htx.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <common/standard.h>
 
 #include <types/compression.h>

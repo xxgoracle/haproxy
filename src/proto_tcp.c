@@ -32,7 +32,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/errors.h>
-#include <common/mini-clist.h>
+#include <haproxy/mini-clist.h>
 #include <common/standard.h>
 #include <common/namespace.h>
 
