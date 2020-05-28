@@ -24,7 +24,6 @@
 
 #include <haproxy/types.h>
 #include <haproxy/list-t.h>
-#include <common/hathreads.h>
 
 #include <types/server.h>
 
