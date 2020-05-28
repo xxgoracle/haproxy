@@ -13,7 +13,6 @@
 #include <ctype.h>
 
 #include <haproxy/base.h>
-#include <common/hathreads.h>
 #include <common/htx.h>
 #include <common/standard.h>
 #include <common/time.h>

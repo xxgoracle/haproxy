@@ -24,7 +24,6 @@
 
 #include <haproxy/base.h>
 #include <haproxy/mini-clist-t.h>
-#include <common/hathreads.h>
 
 #include <types/server.h>
 
