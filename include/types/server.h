@@ -27,7 +27,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/list-t.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 #include <haproxy/openssl-compat.h>
 
 #include <import/eb32tree.h>

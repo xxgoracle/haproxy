@@ -14,7 +14,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/debug.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 #include <common/standard.h>
 #include <types/global.h>
 #include <types/signal.h>
