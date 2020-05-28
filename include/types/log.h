@@ -26,7 +26,7 @@
 #include <sys/un.h>
 #include <netinet/in.h>
 #include <haproxy/types.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 #include <haproxy/list-t.h>
 #include <types/ring.h>
 

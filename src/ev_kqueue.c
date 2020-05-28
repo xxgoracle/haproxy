@@ -18,7 +18,7 @@
 #include <sys/time.h>
 
 #include <haproxy/base.h>
-#include <common/hathreads.h>
+#include <haproxy/thread-t.h>
 #include <common/ticks.h>
 #include <common/time.h>
 
