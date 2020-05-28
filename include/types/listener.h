@@ -31,7 +31,7 @@
 #endif
 
 #include <haproxy/mini-clist-t.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 
 #include <types/obj_type.h>
 #include <import/eb32tree.h>

@@ -23,7 +23,7 @@
 #define _TYPES_BACKEND_H
 
 #include <haproxy/base.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 
 #include <types/lb_chash.h>
 #include <types/lb_fas.h>

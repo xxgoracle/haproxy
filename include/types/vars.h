@@ -2,7 +2,7 @@
 #define _TYPES_VARS_H
 
 #include <haproxy/mini-clist-t.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 
 #include <types/sample.h>
 

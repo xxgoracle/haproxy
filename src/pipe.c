@@ -14,7 +14,7 @@
 #include <fcntl.h>
 
 #include <haproxy/base.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 #include <common/memory.h>
 
 #include <types/global.h>

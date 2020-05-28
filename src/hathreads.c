@@ -24,7 +24,7 @@
 #endif
 
 #include <common/cfgparse.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 #include <common/standard.h>
 #include <types/global.h>
 #include <proto/fd.h>

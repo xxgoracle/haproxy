@@ -32,7 +32,7 @@
 #include <common/http.h>
 #include <haproxy/mini-clist-t.h>
 #include <common/regex.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 
 #include <import/eb32tree.h>
 #include <import/ebistree.h>

@@ -18,7 +18,7 @@
 #include <types/stats.h>
 
 #include <common/cfgparse.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 #include <common/memory.h>
 #include <haproxy/mini-clist.h>
 #include <common/standard.h>

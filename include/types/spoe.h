@@ -26,7 +26,7 @@
 
 #include <common/buffer.h>
 #include <haproxy/mini-clist-t.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 
 #include <types/filters.h>
 #include <types/freq_ctr.h>

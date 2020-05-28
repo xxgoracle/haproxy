@@ -25,7 +25,7 @@
 #include <netinet/in.h>
 
 #include <haproxy/base.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 
 #include <types/freq_ctr.h>
 #include <types/listener.h>

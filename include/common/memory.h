@@ -30,7 +30,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/mini-clist.h>
-#include <common/hathreads.h>
+#include <haproxy/thread.h>
 
 /* On architectures supporting threads and double-word CAS, we can implement
  * lock-less memory pools. This isn't supported for debugging modes however.
