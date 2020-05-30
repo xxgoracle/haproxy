@@ -23,7 +23,7 @@
 #define _TYPES_CAPTURE_H
 
 #include <haproxy/types.h>
-#include <common/memory.h>
+#include <haproxy/pool-t.h>
 
 struct cap_hdr {
     struct cap_hdr *next;
