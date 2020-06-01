@@ -21,7 +21,7 @@
 #include <haproxy/base.h>
 #include <common/standard.h>
 #include <common/chunk.h>
-#include <common/time.h>
+#include <haproxy/time.h>
 
 #include <proto/spoe.h>
 
