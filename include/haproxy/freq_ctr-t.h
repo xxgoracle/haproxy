@@ -1,8 +1,8 @@
 /*
- * include/types/freq_ctr.h
+ * include/haproxy/freq_ctr.h
  * This file contains structure declarations for frequency counters.
  *
- * Copyright (C) 2000-2010 Willy Tarreau - w@1wt.eu
+ * Copyright (C) 2000-2020 Willy Tarreau - w@1wt.eu
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -19,10 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#ifndef _TYPES_FREQ_CTR_H
-#define _TYPES_FREQ_CTR_H
-
-#include <haproxy/base.h>
+#ifndef _HAPROXY_FREQ_CTR_T_H
+#define _HAPROXY_FREQ_CTR_T_H
 
 /* The implicit freq_ctr counter counts a rate of events per second. It is the
  * preferred form to count rates over a one-second period, because it does not
@@ -45,7 +43,7 @@ struct freq_ctr_period {
 	unsigned int prev_ctr;  /* value for last period */
 };
 
-#endif /* _TYPES_FREQ_CTR_H */
+#endif /* _HAPROXY_FREQ_CTR_T_H */
 
 /*
  * Local variables:
