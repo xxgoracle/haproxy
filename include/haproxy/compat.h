@@ -46,6 +46,9 @@ typedef struct { } empty_t;
 # define LLONG_MIN (-LLONG_MAX - 1LL)
 #endif
 
+/* size used for max length of decimal representation of long long int. */
+#define NB_LLMAX_STR (sizeof("-9223372036854775807")-1)
+
 #ifndef ULLONG_MAX
 # define ULLONG_MAX	(LLONG_MAX * 2ULL + 1)
 #endif

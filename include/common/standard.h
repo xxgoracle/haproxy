@@ -44,26 +44,12 @@
 #include <import/eb32sctree.h>
 #include <types/protocol.h>
 
-/* size used for max length of decimal representation of long long int. */
-#define NB_LLMAX_STR (sizeof("-9223372036854775807")-1)
-
 /* number of itoa_str entries */
 #define NB_ITOA_STR	16
 
 /* maximum quoted string length (truncated above) */
 #define QSTR_SIZE 200
 #define NB_QSTR 10
-
-/****** string-specific macros and functions ******/
-/* if a > max, then bound <a> to <max>. The macro returns the new <a> */
-#define UBOUND(a, max)	({ typeof(a) b = (max); if ((a) > b) (a) = b; (a); })
-
-/* if a < min, then bound <a> to <min>. The macro returns the new <a> */
-#define LBOUND(a, min)	({ typeof(a) b = (min); if ((a) < b) (a) = b; (a); })
-
-/* returns 1 only if only zero or one bit is set in X, which means that X is a
- * power of 2, and 0 otherwise */
-#define POWEROF2(x) (((x) & ((x)-1)) == 0)
 
 /* rotate left a 64-bit integer by <bits:[0-5]> bits */
 static inline uint64_t rotl64(uint64_t v, uint8_t bits)

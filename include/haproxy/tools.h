@@ -44,6 +44,16 @@
 /* return the largest possible integer of type <ret>, with all bits set */
 #define MAX_RANGE(ret) (~(typeof(ret))0)
 
+/* if a > max, then bound <a> to <max>. The macro returns the new <a> */
+#define UBOUND(a, max)	({ typeof(a) b = (max); if ((a) > b) (a) = b; (a); })
+
+/* if a < min, then bound <a> to <min>. The macro returns the new <a> */
+#define LBOUND(a, min)	({ typeof(a) b = (min); if ((a) < b) (a) = b; (a); })
+
+/* returns 1 only if only zero or one bit is set in X, which means that X is a
+ * power of 2, and 0 otherwise */
+#define POWEROF2(x) (((x) & ((x)-1)) == 0)
+
 /* quick debugging hack, should really be removed ASAP */
 #ifdef DEBUG_FULL
 #define DPRINTF(x...) fprintf(x)
