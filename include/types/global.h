@@ -27,7 +27,7 @@
 #include <haproxy/types.h>
 #include <haproxy/thread.h>
 
-#include <types/freq_ctr.h>
+#include <haproxy/freq_ctr-t.h>
 #include <types/listener.h>
 #include <types/proxy.h>
 #include <types/task.h>
