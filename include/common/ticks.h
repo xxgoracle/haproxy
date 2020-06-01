@@ -53,7 +53,6 @@
 #define _COMMON_TICKS_H
 
 #include <haproxy/base.h>
-#include <common/standard.h>
 
 #define TICK_ETERNITY   0
 

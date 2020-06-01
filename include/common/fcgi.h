@@ -24,7 +24,6 @@
 
 #include <stdio.h>
 #include <haproxy/base.h>
-#include <common/standard.h>
 #include <haproxy/buf-t.h>
 #include <import/ist.h>
 
