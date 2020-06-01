@@ -71,7 +71,7 @@
 
 #include <haproxy/base.h>
 #include <common/memory.h>
-#include <common/time.h>
+#include <haproxy/time.h>
 #include <haproxy/thread.h>
 #include <import/eb32tree.h>
 
