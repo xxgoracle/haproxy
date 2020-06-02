@@ -28,7 +28,7 @@
 #include <haproxy/base.h>
 #include <haproxy/buf-t.h>
 #include <import/ist.h>
-#include <common/memory.h>
+#include <haproxy/pool.h>
 
 
 extern struct pool_head *pool_head_trash;

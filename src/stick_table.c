@@ -16,7 +16,7 @@
 
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
-#include <common/memory.h>
+#include <haproxy/pool.h>
 #include <haproxy/list.h>
 #include <common/net_helper.h>
 #include <common/standard.h>

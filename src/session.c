@@ -13,7 +13,7 @@
 #include <haproxy/base.h>
 #include <common/buffer.h>
 #include <common/http.h>
-#include <common/memory.h>
+#include <haproxy/pool.h>
 
 #include <types/global.h>
 #include <types/session.h>
