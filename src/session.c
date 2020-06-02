@@ -11,7 +11,7 @@
  */
 
 #include <haproxy/base.h>
-#include <common/http.h>
+#include <haproxy/http.h>
 #include <haproxy/pool.h>
 
 #include <types/global.h>
