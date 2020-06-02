@@ -10,6 +10,7 @@
  *
  */
 #include <haproxy/base.h>
+#include <haproxy/istbuf.h>
 #include <common/cfgparse.h>
 #include <common/h1.h>
 #include <common/h2.h>

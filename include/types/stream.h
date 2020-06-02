@@ -29,6 +29,7 @@
 #include <arpa/inet.h>
 
 #include <haproxy/base.h>
+#include <haproxy/dynbuf-t.h>
 #include <haproxy/list-t.h>
 
 #include <types/channel.h>
