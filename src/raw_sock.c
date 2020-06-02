@@ -25,7 +25,7 @@
 #include <haproxy/base.h>
 #include <haproxy/buf.h>
 #include <common/standard.h>
-#include <common/ticks.h>
+#include <haproxy/ticks.h>
 #include <haproxy/time.h>
 
 #include <proto/connection.h>
