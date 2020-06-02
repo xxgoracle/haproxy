@@ -25,6 +25,7 @@
 #include <sys/uio.h>
 
 #include <haproxy/base.h>
+#include <haproxy/http.h>
 #include <common/standard.h>
 #include <haproxy/time.h>
 #include <haproxy/version.h>
