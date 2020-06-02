@@ -40,7 +40,7 @@
 #include <haproxy/base.h>
 #include <haproxy/intops.h>
 #include <haproxy/chunk.h>
-#include <common/namespace.h>
+#include <haproxy/namespace-t.h>
 #include <import/eb32tree.h>
 #include <import/eb32sctree.h>
 #include <types/protocol.h>
