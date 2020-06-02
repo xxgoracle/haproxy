@@ -24,7 +24,7 @@
 
 #include <haproxy/types.h>
 #include <haproxy/list-t.h>
-#include <common/regex.h>
+#include <haproxy/regex-t.h>
 
 #include <types/sample.h>
 
