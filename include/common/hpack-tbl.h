@@ -29,7 +29,7 @@
 
 #include <stdlib.h>
 #include <haproxy/base.h>
-#include <common/http-hdr.h>
+#include <haproxy/http-hdr-t.h>
 #include <import/ist.h>
 #include <haproxy/pool.h>
 
