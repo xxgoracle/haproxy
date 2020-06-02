@@ -25,7 +25,7 @@
 #include <stdlib.h>
 
 #include <haproxy/base.h>
-#include <common/memory.h>
+#include <haproxy/pool.h>
 #include <haproxy/list.h>
 #include <types/applet.h>
 #include <proto/task.h>

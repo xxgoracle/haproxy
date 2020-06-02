@@ -29,7 +29,7 @@
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
 #include <haproxy/thread.h>
-#include <common/memory.h>
+#include <haproxy/pool.h>
 
 #include <types/global.h>
 #include <types/compression.h>
