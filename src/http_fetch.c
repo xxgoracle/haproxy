@@ -18,7 +18,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/base64.h>
-#include <common/chunk.h>
+#include <haproxy/chunk.h>
 #include <common/h1.h>
 #include <common/http.h>
 #include <common/htx.h>
