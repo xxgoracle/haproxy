@@ -15,6 +15,7 @@
 #include <unistd.h>
 
 #include <haproxy/base.h>
+#include <haproxy/regex.h>
 #include <types/global.h>
 
 #include <common/cfgparse.h>
