@@ -39,7 +39,7 @@
 #include <arpa/inet.h>
 #include <haproxy/base.h>
 #include <haproxy/intops.h>
-#include <common/chunk.h>
+#include <haproxy/chunk.h>
 #include <common/namespace.h>
 #include <import/eb32tree.h>
 #include <import/eb32sctree.h>

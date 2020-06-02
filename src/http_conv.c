@@ -17,7 +17,7 @@
 #include <time.h>
 
 #include <haproxy/base.h>
-#include <common/chunk.h>
+#include <haproxy/chunk.h>
 #include <common/http.h>
 #include <haproxy/pool.h>
 #include <common/standard.h>

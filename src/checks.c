@@ -32,7 +32,7 @@
 
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
-#include <common/chunk.h>
+#include <haproxy/chunk.h>
 #include <haproxy/list.h>
 #include <common/standard.h>
 #include <haproxy/time.h>
