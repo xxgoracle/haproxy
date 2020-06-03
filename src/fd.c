@@ -91,7 +91,7 @@
 #include <haproxy/base.h>
 #include <types/global.h>
 
-#include <proto/fd.h>
+#include <haproxy/fd.h>
 #include <proto/log.h>
 #include <haproxy/port_range.h>
 
