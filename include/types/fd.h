@@ -24,7 +24,7 @@
 
 #include <haproxy/types.h>
 #include <import/ist.h>
-#include <types/port_range.h>
+#include <haproxy/port_range-t.h>
 
 /* Direction for each FD event update */
 enum {
