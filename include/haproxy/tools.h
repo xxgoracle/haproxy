@@ -37,12 +37,12 @@
 #include <sys/un.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <import/eb32tree.h>
+#include <import/eb32sctree.h>
 #include <haproxy/base.h>
 #include <haproxy/intops.h>
 #include <haproxy/chunk.h>
 #include <haproxy/namespace-t.h>
-#include <import/eb32tree.h>
-#include <import/eb32sctree.h>
 #include <haproxy/protocol-t.h>
 
 /* size used for max length of decimal representation of long long int. */
