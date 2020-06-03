@@ -31,7 +31,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/http-hdr-t.h>
-#include <common/htx.h>
+#include <haproxy/htx-t.h>
 #include <import/ist.h>
 
 

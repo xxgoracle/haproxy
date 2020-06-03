@@ -11,6 +11,7 @@
  */
 
 #include <haproxy/base.h>
+#include <haproxy/buf.h>
 #include <proto/connection.h>
 #include <proto/stream.h>
 #include <proto/task.h>
