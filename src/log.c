@@ -26,7 +26,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/http.h>
-#include <common/standard.h>
+#include <haproxy/tools.h>
 #include <haproxy/time.h>
 #include <haproxy/version.h>
 

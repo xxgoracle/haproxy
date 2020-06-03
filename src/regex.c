@@ -17,7 +17,7 @@
 #include <haproxy/base.h>
 #include <types/global.h>
 #include <haproxy/regex.h>
-#include <common/standard.h>
+#include <haproxy/tools.h>
 #include <proto/log.h>
 
 /* regex trash buffer used by various regex tests */
