@@ -24,7 +24,7 @@
 
 #include <haproxy/types.h>
 #include <import/ist.h>
-#include <common/fcgi.h>
+#include <haproxy/fcgi.h>
 #include <haproxy/list-t.h>
 #include <haproxy/regex-t.h>
 
