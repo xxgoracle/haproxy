@@ -23,7 +23,6 @@
 #define _PROTO_PROTO_TCP_H
 
 #include <haproxy/base.h>
-#include <types/action.h>
 #include <types/task.h>
 #include <proto/stick_table.h>
 
