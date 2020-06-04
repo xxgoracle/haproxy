@@ -22,8 +22,8 @@
 #ifndef _HAPROXY_VARS_H
 #define _HAPROXY_VARS_H
 
-#include <types/stream.h>
 #include <haproxy/session-t.h>
+#include <haproxy/stream-t.h>
 #include <haproxy/types.h>
 #include <haproxy/vars-t.h>
 
