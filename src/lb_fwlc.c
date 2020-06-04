@@ -13,7 +13,6 @@
 #include <haproxy/base.h>
 #include <import/eb32tree.h>
 
-#include <types/global.h>
 #include <types/server.h>
 
 #include <proto/backend.h>

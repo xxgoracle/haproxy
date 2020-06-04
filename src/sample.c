@@ -17,11 +17,11 @@
 #include <stdio.h>
 
 #include <haproxy/base.h>
-#include <types/global.h>
 
 #include <haproxy/auth.h>
 #include <haproxy/buf.h>
 #include <haproxy/chunk.h>
+#include <haproxy/global.h>
 #include <haproxy/hash.h>
 #include <haproxy/http.h>
 #include <haproxy/net_helper.h>
