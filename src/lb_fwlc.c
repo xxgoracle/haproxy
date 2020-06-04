@@ -10,12 +10,11 @@
  *
  */
 
+#include <haproxy/backend.h>
 #include <haproxy/base.h>
 #include <import/eb32tree.h>
 
 #include <types/server.h>
-
-#include <proto/backend.h>
 #include <proto/queue.h>
 
 
