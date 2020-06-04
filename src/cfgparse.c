@@ -39,6 +39,7 @@
 #include <haproxy/base.h>
 #include <haproxy/capture.h>
 #include <common/cfgparse.h>
+#include <haproxy/channel.h>
 #include <haproxy/checks.h>
 #include <haproxy/chunk.h>
 #include <haproxy/connection.h>
@@ -69,7 +70,6 @@
 #include <haproxy/global.h>
 
 #include <proto/backend.h>
-#include <proto/channel.h>
 #include <proto/filters.h>
 #include <proto/log.h>
 #include <haproxy/protocol.h>

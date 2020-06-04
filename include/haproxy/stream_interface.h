@@ -24,9 +24,9 @@
 
 #include <haproxy/applet.h>
 #include <haproxy/base.h>
+#include <haproxy/channel.h>
 #include <haproxy/connection.h>
 #include <haproxy/stream_interface-t.h>
-#include <proto/channel.h>
 #include <types/stream.h>
 
 
