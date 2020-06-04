@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #include <haproxy/base.h>
-#include <common/cfgparse.h>
+#include <haproxy/cfgparse.h>
 #include <haproxy/errors.h>
 #include <haproxy/http.h>
 #include <haproxy/http_ana.h>

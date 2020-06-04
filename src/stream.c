@@ -22,7 +22,7 @@
 #include <haproxy/backend.h>
 #include <haproxy/base.h>
 #include <haproxy/capture.h>
-#include <common/cfgparse.h>
+#include <haproxy/cfgparse.h>
 #include <haproxy/channel.h>
 #include <haproxy/checks.h>
 #include <haproxy/cli.h>

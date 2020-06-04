@@ -21,7 +21,7 @@
 #include <unistd.h>
 
 #include <haproxy/base.h>
-#include <common/cfgparse.h>
+#include <haproxy/cfgparse.h>
 #include <haproxy/errors.h>
 #include <haproxy/global.h>
 #include <haproxy/log.h>

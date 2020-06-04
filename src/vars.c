@@ -2,7 +2,7 @@
 
 #include <haproxy/arg.h>
 #include <haproxy/base.h>
-#include <common/cfgparse.h>
+#include <haproxy/cfgparse.h>
 #include <haproxy/checks.h>
 #include <haproxy/global.h>
 #include <haproxy/http.h>

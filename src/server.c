@@ -14,12 +14,12 @@
 #include <ctype.h>
 #include <errno.h>
 
+#include <import/xxhash.h>
+
 #include <haproxy/applet-t.h>
 #include <haproxy/backend.h>
 #include <haproxy/base.h>
-#include <import/xxhash.h>
-
-#include <common/cfgparse.h>
+#include <haproxy/cfgparse.h>
 #include <haproxy/checks.h>
 #include <haproxy/cli.h>
 #include <haproxy/connection.h>
