@@ -1,5 +1,5 @@
 /*
- * include/proto/pattern.h
+ * include/haproxy/pattern.h
  * This file provides structures and types for pattern matching.
  *
  * Copyright (C) 2000-2013 Willy Tarreau - w@1wt.eu
@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#ifndef _PROTO_PATTERN_H
-#define _PROTO_PATTERN_H
+#ifndef _HAPROXY_PATTERN_H
+#define _HAPROXY_PATTERN_H
 
 #include <string.h>
 
 #include <haproxy/base.h>
-#include <types/pattern.h>
+#include <haproxy/pattern-t.h>
 
 /* pattern management function arrays */
 extern char *pat_match_names[PAT_MATCH_NUM];
