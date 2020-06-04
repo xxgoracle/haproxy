@@ -24,7 +24,6 @@
 
 #include <haproxy/base.h>
 #include <types/acl.h>
-#include <proto/sample.h>
 
 /*
  * FIXME: we need destructor functions too !

@@ -29,7 +29,7 @@
 #include <haproxy/thread-t.h>
 #include <haproxy/types.h>
 
-#include <types/sample.h>
+#include <haproxy/sample-t.h>
 
 
 /* Pattern matching function result.
