@@ -27,9 +27,9 @@
 #include <haproxy/applet-t.h>
 #include <haproxy/base.h>
 #include <haproxy/dns-t.h>
+#include <haproxy/proxy-t.h>
 #include <haproxy/task.h>
 #include <haproxy/time.h>
-#include <types/proxy.h>
 #include <types/queue.h>
 #include <types/server.h>
 

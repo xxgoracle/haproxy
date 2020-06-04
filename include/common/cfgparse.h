@@ -25,7 +25,7 @@
 #include <haproxy/base.h>
 #include <haproxy/list-t.h>
 #include <haproxy/log.h>
-#include <proto/proxy.h>
+#include <haproxy/proxy.h>
 
 /* configuration sections */
 #define CFG_NONE	0
