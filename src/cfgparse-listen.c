@@ -28,7 +28,7 @@
 #include <haproxy/protocol.h>
 #include <proto/proxy.h>
 #include <proto/server.h>
-#include <proto/stick_table.h>
+#include <haproxy/stick_table.h>
 
 /* Report a warning if a rule is placed after a 'tcp-request session' rule.
  * Return 1 if the warning has been emitted, otherwise 0.
