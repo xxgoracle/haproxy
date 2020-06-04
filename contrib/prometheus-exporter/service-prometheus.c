@@ -30,7 +30,7 @@
 #include <haproxy/pipe.h>
 #include <haproxy/proxy.h>
 #include <haproxy/sample.h>
-#include <proto/server.h>
+#include <haproxy/server.h>
 #include <haproxy/ssl_sock.h>
 #include <haproxy/stats-t.h>
 #include <proto/stream.h>

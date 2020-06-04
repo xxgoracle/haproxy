@@ -27,9 +27,8 @@
 #include <haproxy/arg-t.h>
 #include <haproxy/list-t.h>
 #include <haproxy/pattern-t.h>
+#include <haproxy/server-t.h>
 #include <haproxy/types.h>
-
-#include <types/server.h>
 
 
 /* ACL test result.

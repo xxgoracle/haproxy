@@ -37,9 +37,9 @@
 #include <haproxy/freq_ctr-t.h>
 #include <haproxy/list-t.h>
 #include <haproxy/obj_type-t.h>
+#include <haproxy/server-t.h>
 #include <haproxy/thread-t.h>
 #include <haproxy/types.h>
-#include <types/server.h>
 
 /* values for proxy->state */
 enum pr_state {
