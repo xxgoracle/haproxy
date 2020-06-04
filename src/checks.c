@@ -33,6 +33,7 @@
 #include <haproxy/action.h>
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
+#include <haproxy/checks.h>
 #include <haproxy/chunk.h>
 #include <haproxy/dns.h>
 #include <haproxy/istbuf.h>
@@ -54,7 +55,6 @@
 
 #include <haproxy/arg.h>
 #include <proto/backend.h>
-#include <proto/checks.h>
 #include <proto/stats.h>
 #include <haproxy/fd.h>
 #include <proto/log.h>

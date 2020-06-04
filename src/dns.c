@@ -22,6 +22,7 @@
 #include <haproxy/action.h>
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
+#include <haproxy/checks.h>
 #include <haproxy/dns.h>
 #include <haproxy/errors.h>
 #include <haproxy/http_rules.h>
@@ -40,7 +41,6 @@
 
 #include <proto/channel.h>
 #include <proto/cli.h>
-#include <proto/checks.h>
 #include <haproxy/fd.h>
 #include <proto/http_ana.h>
 #include <proto/log.h>

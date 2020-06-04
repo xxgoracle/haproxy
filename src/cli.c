@@ -28,6 +28,7 @@
 
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
+#include <haproxy/checks.h>
 #include <haproxy/dns-t.h>
 #include <haproxy/frontend.h>
 #include <haproxy/list.h>
@@ -50,7 +51,6 @@
 #include <haproxy/activity.h>
 #include <proto/backend.h>
 #include <proto/channel.h>
-#include <proto/checks.h>
 #include <proto/cli.h>
 #include <haproxy/compression.h>
 #include <proto/stats.h>
