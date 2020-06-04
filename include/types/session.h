@@ -31,11 +31,11 @@
 #include <haproxy/types.h>
 #include <haproxy/list-t.h>
 #include <haproxy/obj_type-t.h>
+#include <haproxy/vars-t.h>
 
 #include <types/proxy.h>
 #include <types/stick_table.h>
 #include <types/task.h>
-#include <types/vars.h>
 
 struct sess_srv_list {
 	void *target;
