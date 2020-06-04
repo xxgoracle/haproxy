@@ -26,6 +26,7 @@
 
 #include <net/if.h>
 
+#include <haproxy/applet-t.h>
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
 #include <haproxy/checks.h>
@@ -45,7 +46,6 @@
 #include <haproxy/version.h>
 #include <haproxy/base64.h>
 
-#include <types/applet.h>
 #include <haproxy/global.h>
 #include <types/stats.h>
 

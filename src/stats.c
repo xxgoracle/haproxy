@@ -24,6 +24,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
+#include <haproxy/applet-t.h>
 #include <haproxy/base.h>
 #include <common/cfgparse.h>
 #include <haproxy/checks.h>
@@ -49,7 +50,6 @@
 #include <haproxy/version.h>
 #include <haproxy/base64.h>
 
-#include <types/applet.h>
 #include <types/cli.h>
 #include <types/stats.h>
 
