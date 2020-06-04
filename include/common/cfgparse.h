@@ -24,8 +24,7 @@
 
 #include <haproxy/base.h>
 #include <haproxy/list-t.h>
-
-#include <proto/log.h>
+#include <haproxy/log.h>
 #include <proto/proxy.h>
 
 /* configuration sections */
