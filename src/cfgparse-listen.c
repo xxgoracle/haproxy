@@ -23,7 +23,7 @@
 #include <haproxy/http_rules.h>
 #include <haproxy/listener.h>
 #include <haproxy/sample.h>
-#include <types/stats.h>
+#include <haproxy/stats-t.h>
 
 #include <haproxy/protocol.h>
 #include <proto/proxy.h>
