@@ -34,7 +34,7 @@
 #include <haproxy/ssl_sock.h>
 #include <haproxy/stats-t.h>
 #include <proto/stream.h>
-#include <proto/stream_interface.h>
+#include <haproxy/stream_interface.h>
 #include <haproxy/task.h>
 
 /* Prometheus exporter applet states (appctx->st0) */
